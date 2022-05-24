@@ -16,3 +16,5 @@ Key Class
 Final vs Const
 - final variable can be set only once.
 - const variable is compile time constant, cannot contain data computed at run time.
+Non-nullable variable
+- Use ? at declaration: Widget? widget
