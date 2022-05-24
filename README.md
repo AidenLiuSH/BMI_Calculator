@@ -16,3 +16,6 @@ Body Mass Calculator with customized Flutter Widget and UI design using.
 - Use ? at declaration: Widget? widget
 ### Interactive widget
 - GestureDetector: https://api.flutter.dev/flutter/widgets/GestureDetector-class.html
+### Dart enums
+### Dart Ternary Operators
+- Condition ? DoThisIfTrue : DoThisIfFalse
