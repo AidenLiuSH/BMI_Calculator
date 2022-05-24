@@ -1,16 +1,18 @@
-# flutter_app
+# BMI_Calculator
 
-A new Flutter application.
+Flutter Project: BMI_Calculator.
 
-## Getting Started
+## Project Description
 
-This project is a starting point for a Flutter application.
+Body Mass Calculator with customized Flutter Widget and UI design using.
+- ThemData Widget: https://api.flutter.dev/flutter/material/ThemeData-class.html
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Notes:
+### Refractor Widget
+Refractor repeating widget:
+- Select Widget -> Flutter Outline -> Extra Widget
+Key Class
+- A key is used when we want to perserve state of widgets(order, data): https://api.flutter.dev/flutter/foundation/Key-class.html
+Final vs Const
+- final variable can be set only once.
+- const variable is compile time constant, cannot contain data computed at run time.
