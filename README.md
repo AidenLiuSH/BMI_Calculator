@@ -19,3 +19,5 @@ Body Mass Calculator with customized Flutter Widget and UI design using.
 ### Dart enums
 ### Dart Ternary Operators
 - Condition ? DoThisIfTrue : DoThisIfFalse
+### slider class
+https://api.flutter.dev/flutter/material/Slider-class.html
