@@ -26,6 +26,10 @@ class _InputPageState extends State<InputPage> {
   int weight = 60;
   int age = 20;
 
+  refresh() {
+    setState(() {});
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -91,9 +95,34 @@ class _InputPageState extends State<InputPage> {
                     crossAxisAlignment: CrossAxisAlignment.baseline,
                     textBaseline: TextBaseline.alphabetic,
                     children: <Widget>[
-                      Text(
-                        height.toString(),
-                        style: kNumberTextStyle,
+                      GestureDetector(
+                        onTap: () {
+                          setState(() {
+                            AlertDialog alert = AlertDialog(
+                              title: Text('Enter your height:'),
+                              content: TextField(
+                                onChanged: (value) {
+                                  int newValue = int.parse(value);
+                                  if (newValue < 120 || newValue > 220) {
+                                  } else {
+                                    height = newValue;
+                                    refresh();
+                                  }
+                                },
+                              ),
+                            );
+                            showDialog(
+                              context: context,
+                              builder: (BuildContext context) {
+                                return alert;
+                              },
+                            );
+                          });
+                        },
+                        child: Text(
+                          height.toString(),
+                          style: kNumberTextStyle,
+                        ),
                       ),
                       const Text(
                         'cm',
@@ -144,9 +173,34 @@ class _InputPageState extends State<InputPage> {
                         crossAxisAlignment: CrossAxisAlignment.baseline,
                         textBaseline: TextBaseline.alphabetic,
                         children: <Widget>[
-                          Text(
-                            weight.toString(),
-                            style: kNumberTextStyle,
+                          GestureDetector(
+                            onTap: () {
+                              setState(() {
+                                AlertDialog alert = AlertDialog(
+                                  title: Text('Enter your weight:'),
+                                  content: TextField(
+                                    onChanged: (value) {
+                                      int newValue = int.parse(value);
+                                      if (newValue < 0 || newValue >= 999) {
+                                      } else {
+                                        weight = newValue;
+                                        refresh();
+                                      }
+                                    },
+                                  ),
+                                );
+                                showDialog(
+                                  context: context,
+                                  builder: (BuildContext context) {
+                                    return alert;
+                                  },
+                                );
+                              });
+                            },
+                            child: Text(
+                              weight.toString(),
+                              style: kNumberTextStyle,
+                            ),
                           ),
                           const Text(
                             'kg',
@@ -188,9 +242,34 @@ class _InputPageState extends State<InputPage> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
                       const Text('Age', style: kLabelTextStyle),
-                      Text(
-                        age.toString(),
-                        style: kNumberTextStyle,
+                      GestureDetector(
+                        onTap: () {
+                          setState(() {
+                            AlertDialog alert = AlertDialog(
+                              title: Text('Enter your age:'),
+                              content: TextField(
+                                onChanged: (value) {
+                                  int newValue = int.parse(value);
+                                  if (newValue < 0 || newValue >= 200) {
+                                  } else {
+                                    age = newValue;
+                                    refresh();
+                                  }
+                                },
+                              ),
+                            );
+                            showDialog(
+                              context: context,
+                              builder: (BuildContext context) {
+                                return alert;
+                              },
+                            );
+                          });
+                        },
+                        child: Text(
+                          age.toString(),
+                          style: kNumberTextStyle,
+                        ),
                       ),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.center,
