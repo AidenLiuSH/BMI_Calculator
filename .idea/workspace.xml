@@ -20,9 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="548651c7-cc10-4271-9daa-b309369cb2c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/calculator_brain.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/components/buttom_button.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/components/round_icon_button.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/results_page.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/4f2a58af27abc49ecf55570043bbf938.cache.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/build/4f2a58af27abc49ecf55570043bbf938.cache.dill.track.dill" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/input_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/input_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/constants.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/constants.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/icon_content.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/icon_content.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/input_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/input_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/reusable_card.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/reusable_card.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,11 +56,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/components" />
+      <recent name="$PROJECT_DIR$/lib/screens" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
@@ -90,51 +103,51 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="215" y="202" key="#Intentions/-1440.25.1440.875/0.0.1920.1080@0.0.1920.1080" timestamp="1653433146795" />
-    <state width="1245" height="128" key="GridCell.Tab.0.bottom" timestamp="1653678860338">
+    <state width="1245" height="128" key="GridCell.Tab.0.bottom" timestamp="1653684359912">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1245" height="128" key="GridCell.Tab.0.bottom/-1440.25.1440.875/0.0.1920.1080@0.0.1920.1080" timestamp="1653678860338" />
+    <state width="1245" height="128" key="GridCell.Tab.0.bottom/-1440.25.1440.875/0.0.1920.1080@0.0.1920.1080" timestamp="1653684359912" />
     <state width="1232" height="304" key="GridCell.Tab.0.bottom/-1440.25.1440.875/0.0.2560.1080@0.0.2560.1080" timestamp="1653358096762" />
     <state width="2350" height="287" key="GridCell.Tab.0.bottom/-1440.25.1440.875/0.25.2560.1055@0.25.2560.1055" timestamp="1653347945323" />
-    <state width="1245" height="128" key="GridCell.Tab.0.center" timestamp="1653678860338">
+    <state width="1245" height="128" key="GridCell.Tab.0.center" timestamp="1653684359910">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1245" height="128" key="GridCell.Tab.0.center/-1440.25.1440.875/0.0.1920.1080@0.0.1920.1080" timestamp="1653678860338" />
+    <state width="1245" height="128" key="GridCell.Tab.0.center/-1440.25.1440.875/0.0.1920.1080@0.0.1920.1080" timestamp="1653684359910" />
     <state width="1232" height="304" key="GridCell.Tab.0.center/-1440.25.1440.875/0.0.2560.1080@0.0.2560.1080" timestamp="1653358096761" />
     <state width="2350" height="287" key="GridCell.Tab.0.center/-1440.25.1440.875/0.25.2560.1055@0.25.2560.1055" timestamp="1653347945322" />
-    <state width="1245" height="128" key="GridCell.Tab.0.left" timestamp="1653678860337">
+    <state width="1245" height="128" key="GridCell.Tab.0.left" timestamp="1653684359910">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1245" height="128" key="GridCell.Tab.0.left/-1440.25.1440.875/0.0.1920.1080@0.0.1920.1080" timestamp="1653678860337" />
+    <state width="1245" height="128" key="GridCell.Tab.0.left/-1440.25.1440.875/0.0.1920.1080@0.0.1920.1080" timestamp="1653684359910" />
     <state width="1232" height="304" key="GridCell.Tab.0.left/-1440.25.1440.875/0.0.2560.1080@0.0.2560.1080" timestamp="1653358096761" />
     <state width="2350" height="287" key="GridCell.Tab.0.left/-1440.25.1440.875/0.25.2560.1055@0.25.2560.1055" timestamp="1653347945321" />
-    <state width="1245" height="128" key="GridCell.Tab.0.right" timestamp="1653678860338">
+    <state width="1245" height="128" key="GridCell.Tab.0.right" timestamp="1653684359911">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1245" height="128" key="GridCell.Tab.0.right/-1440.25.1440.875/0.0.1920.1080@0.0.1920.1080" timestamp="1653678860338" />
+    <state width="1245" height="128" key="GridCell.Tab.0.right/-1440.25.1440.875/0.0.1920.1080@0.0.1920.1080" timestamp="1653684359911" />
     <state width="1232" height="304" key="GridCell.Tab.0.right/-1440.25.1440.875/0.0.2560.1080@0.0.2560.1080" timestamp="1653358096762" />
     <state width="2350" height="287" key="GridCell.Tab.0.right/-1440.25.1440.875/0.25.2560.1055@0.25.2560.1055" timestamp="1653347945322" />
-    <state x="280" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1653433334593">
+    <state x="280" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1653682811024">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="280" y="241" width="670" height="676" key="search.everywhere.popup/-1440.25.1440.875/0.0.1920.1080@0.0.1920.1080" timestamp="1653433334593" />
+    <state x="280" y="241" width="670" height="676" key="search.everywhere.popup/-1440.25.1440.875/0.0.1920.1080@0.0.1920.1080" timestamp="1653682811024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
-          <url>file://$PROJECT_DIR$/lib/reusable_card.dart</url>
+          <url>file://$PROJECT_DIR$/lib/components/reusable_card.dart</url>
           <line>28</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
-          <url>file://$PROJECT_DIR$/lib/input_page.dart</url>
-          <line>71</line>
+          <url>file://$PROJECT_DIR$/lib/screens/input_page.dart</url>
+          <line>75</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
-          <url>file://$PROJECT_DIR$/lib/input_page.dart</url>
-          <line>153</line>
+          <url>file://$PROJECT_DIR$/lib/screens/input_page.dart</url>
+          <line>157</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>

@@ -20,4 +20,8 @@ Body Mass Calculator with customized Flutter Widget and UI design using.
 ### Dart Ternary Operators
 - Condition ? DoThisIfTrue : DoThisIfFalse
 ### slider class
-https://api.flutter.dev/flutter/material/Slider-class.html
+- https://api.flutter.dev/flutter/material/Slider-class.html
+### Navigation and Routes
+- https://docs.flutter.dev/development/ui/navigation
+- Page navigation behaves like a stack.
+
